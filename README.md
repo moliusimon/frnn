@@ -13,7 +13,7 @@ The models for each dataset are saved inside "./model/<dataset>/". Each model ha
 named "model_frnn.py" and one for the RLadder baseline, named "main_rladder.py". These files specify the paths where
 to find the pre-processed data and save the trained models, as well as the training parameters:
 
-- Number of training terations (batches)
+- Number of training iterations (batches)
 - Batch size
 - Device to use
 - Topology parameters
