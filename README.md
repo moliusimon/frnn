@@ -4,6 +4,8 @@ Here we provide the code for Folded Recurrent Neural Networks, a type of recurre
 
 <ARXIV, PENDING PUBLICATION>
 
+This repository also implements the RLadder baseline presented in the paper. This baseline uses an equivalent topology that makes use of bridge connections instead of directly sharing the states. The other methods in the comparison also made their code publicly available.
+
 ### DATASETS & MODELS
 The models for each dataset are saved inside "./model/<dataset>/". Each model has a main file, one for the fRNN model
 named "model_frnn.py" and one for the RLadder baseline, named "main_rladder.py". These files specify the paths where
