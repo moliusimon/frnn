@@ -2,7 +2,7 @@
 
 Here we provide the code for Folded Recurrent Neural Networks, a type of recurrent auto-encoder with shared states between encoder and decoder. This allows for representation stratification, with the resulting model requiring less capacity on the deeper layers. It is also possible to use only the encoder or decoder during encoding and prediction, respectively. This results in computational and memory savings, and limits the propagation of prediction errors by avoiding the re-encoding of predictions. Due to this strategy, layers can be removed from an already trained model. This facilitates the analysis of the contribution to the final predictions made by each layer. It also serves as mechanism for reducing the size of the final models. This code applies fRNN to future video prediction, as explained in the following paper:
 
-<ARXIV, PENDING PUBLICATION>
+https://arxiv.org/pdf/1712.00311.pdf
 
 This repository also implements the RLadder baseline presented in the paper. This baseline uses an equivalent topology that makes use of bridge connections instead of directly sharing the states. The other methods in the comparison also made their code publicly available.
 
